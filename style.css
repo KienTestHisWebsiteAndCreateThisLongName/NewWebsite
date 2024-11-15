@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        p {
+            margin: 15px 0;
+            font-size: 1.1em;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        img:hover {
+            transform: scale(1.05);
+        }
+        .video-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        iframe {
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <div class="container">
+        <p>Welcome to this dumb website, where you cannot be yourself because you're a dumbass.</p>
+        <p>Test this website by giving it a dumb picture:</p>
+        <p>
+            <img src="https://thucphamsieuthi.vn/wp-content/uploads/2021/08/banh-pizza-hai-san-dong-lanh.jpg" alt="Mua pizza đ&ocirc;ng lạnh ở đ&acirc;u - Thực phẩm si&ecirc;u thị" />
+        </p>
+        <p>Giving it a video:</p>
+
+        <div class="video-container">
+            <iframe width="998" height="561" src="https://www.youtube.com/embed/9mY2LoEmhSA" title="PIZZA KHỔNG LỒ ngon nhất Hà Nội trong lòng Ninh #lenxeroianthoi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2023 Your Website. All rights reserved.
+    </footer>
+
+</body>
+</html>
